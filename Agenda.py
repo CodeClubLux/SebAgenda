@@ -1,5 +1,8 @@
+#!/usr/bin/env python3
 print("* Loading most modules *")
-import sys, pickle
+import sys, pickle, os
+
+os.environ['SDL_VIDEO_CENTERED'] = '1'
 
 Version = 0.3
 
